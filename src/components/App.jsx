@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import ContactForm from './ContactForm';
 import Filter from './Filter';
 import ContactList from './ContactList';
-import Style from './App.css'
+import './App.css'
 
 export const App = () => {
   const [contacts, setContacts] = useState([
